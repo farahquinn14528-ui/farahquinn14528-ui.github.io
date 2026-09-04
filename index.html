@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perpustakaan Digital Daerah - PERPPUS DAERAH UKK</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <i class="fas fa-book"></i>
+                <span>PERPPUS DAERAH</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#fitur">Fitur</a></li>
+                <li><a href="#demo">Demo</a></li>
+                <li><a href="#tentang">Tentang</a></li>
+                <li><a href="https://github.com/farahquinn14528-ui/perppus_daerahukk" class="btn-github">GitHub</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Perpustakaan Digital Daerah</h1>
+                <p>Sistem Manajemen Perpustakaan Sekolah Modern dan Terpadu</p>
+                <div class="hero-buttons">
+                    <a href="#fitur" class="btn btn-primary">Jelajahi Fitur</a>
+                    <a href="https://github.com/farahquinn14528-ui/perppus_daerahukk" class="btn btn-secondary">Lihat Repository</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="book-icon">
+                    <i class="fas fa-book-open"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fitur Section -->
+    <section id="fitur" class="fitur">
+        <div class="container">
+            <h2>Fitur Utama</h2>
+            <div class="fitur-grid">
+                <div class="fitur-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Multi-Role System</h3>
+                    <p>Admin, Petugas, dan Siswa dengan akses sesuai peran masing-masing</p>
+                </div>
+                <div class="fitur-card">
+                    <i class="fas fa-book"></i>
+                    <h3>CRUD Buku</h3>
+                    <p>Manajemen data buku lengkap dengan cover, kategori, dan stok</p>
+                </div>
+                <div class="fitur-card">
+                    <i class="fas fa-exchange-alt"></i>
+                    <h3>Peminjaman & Pengembalian</h3>
+                    <p>Sistem persetujuan dengan tracking status peminjaman real-time</p>
+                </div>
+                <div class="fitur-card">
+                    <i class="fas fa-file-excel"></i>
+                    <h3>Laporan Transaksi</h3>
+                    <p>Export ke Excel, PDF, dan cetak struk peminjaman</p>
+                </div>
+                <div class="fitur-card">
+                    <i class="fas fa-star"></i>
+                    <h3>Rating & Komentar</h3>
+                    <p>Siswa dapat memberikan rating dan ulasan untuk setiap buku</p>
+                </div>
+                <div class="fitur-card">
+                    <i class="fas fa-coins"></i>
+                    <h3>Manajemen Denda</h3>
+                    <p>Perhitungan denda otomatis dengan pembayaran terintegrasi</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section class="tech-stack">
+        <div class="container">
+            <h2>Tech Stack</h2>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <h4>Backend</h4>
+                    <p>PHP (MVC Framework)</p>
+                </div>
+                <div class="tech-item">
+                    <h4>Frontend</h4>
+                    <p>HTML5, CSS3, JavaScript</p>
+                </div>
+                <div class="tech-item">
+                    <h4>Database</h4>
+                    <p>MySQL / MariaDB</p>
+                </div>
+                <div class="tech-item">
+                    <h4>Security</h4>
+                    <p>Authentication, CSRF Protection</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo Section -->
+    <section id="demo" class="demo">
+        <div class="container">
+            <h2>Skenario Penggunaan</h2>
+            <div class="scenario-grid">
+                <div class="scenario-card">
+                    <h3>👨‍🎓 Siswa</h3>
+                    <ul>
+                        <li>Registrasi akun</li>
+                        <li>Cari dan pinjam buku</li>
+                        <li>Lihat riwayat peminjaman</li>
+                        <li>Rating & komentar buku</li>
+                        <li>Bayar denda online</li>
+                    </ul>
+                </div>
+                <div class="scenario-card">
+                    <h3>👨‍💼 Petugas</h3>
+                    <ul>
+                        <li>Kelola data buku</li>
+                        <li>Setujui/tolak peminjaman</li>
+                        <li>Kelola anggota</li>
+                        <li>Cetak struk & laporan</li>
+                        <li>Monitor transaksi</li>
+                    </ul>
+                </div>
+                <div class="scenario-card">
+                    <h3>👨‍💻 Admin</h3>
+                    <ul>
+                        <li>Kelola semua transaksi</li>
+                        <li>Atur tarif denda</li>
+                        <li>Manajemen petugas/admin</li>
+                        <li>Dashboard statistik</li>
+                        <li>Laporan komprehensif</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="tentang" class="about">
+        <div class="container">
+            <h2>Tentang Proyek</h2>
+            <div class="about-content">
+                <p>PERPPUS DAERAH adalah sistem manajemen perpustakaan berbasis web yang dirancang khusus untuk kebutuhan perpustakaan sekolah modern. Dengan fitur-fitur lengkap dan user interface yang intuitif, sistem ini memudahkan pengelolaan koleksi buku, peminjaman, pengembalian, dan laporan transaksi.</p>
+                <p>Proyek ini dikembangkan menggunakan arsitektur MVC (Model-View-Controller) yang memastikan kode terstruktur, maintainable, dan scalable untuk pengembangan jangka panjang.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 PERPPUS DAERAH. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://github.com/farahquinn14528-ui" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
